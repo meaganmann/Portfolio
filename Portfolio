@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .project {
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meagan Mann Portfolio</h1>
+        <p>Project Showcase</p>
+    </header>
+    
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>SQL Database Manipulation</h3>
+                <p>Performed research in theoretical computing and data science methods with a focus on solving a math conjecture in a Python environment using tools such as NetworkX, SQL databases, Pandas, and Polars.</p>
+                <p>Link: <a href=https://github.com/meaganmann/SQL-Database" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Tutor Tots</h3>
+                <p>Created a chrome extension to help students be mroe productive while studying</p>
+                <p>Link: <a href="https://github.com/meaganmann/Tutor-Tots-Popup" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Hyperloop Design Pods</h3>
+                <p>Website displaying the hyperloop pods designed in CAD.</p>
+                <p>Link: <a href="https://www.queenshyperloop.ca/our-pods" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Sonder Wellness Journal</h3>
+                <p>A journaling website to promote positive mental health practices. Integrated front-end and back-end using JavaScript, HTML, and CSS development to create a user-friendly website.</p>
+                <p>Link: <a href="https://devpost.com/software/sonder-iobzk0" target="_blank">View on Devpost</a></p>
+            </div>
+            <div class="project">
+                <h3>Multi-Agent System for Agricultural Applications</h3>
+                <p>Developed a software program in MATLAB to simulate drone interactions.</p>
+                <p>Link: <a href="https://drive.google.com/file/d/1YHZP0zX6cR7tJS9wdSW5owm32bzCj_wy/view" target="_blank">Download Report</a></p>
+            </div>
+        </div>
+    </div>
+    
+        
+        <h2>About Me</h2>
+        <p>I'm a computing student specializing in AI and data science, with experience in research, UX design, and software development. I've worked on theoretical computing and graph theory, presenting my findings at academic conferences. As a TA and admin assistant, I’ve honed my communication and organizational skills. I also have experience in front-end web development, prototyping with Figma, and creating user-friendly designs.</p>
+        
+        <h2>Contact</h2>
+        <p>Email: meagan_ottawa@icloud.com</p>
+        <p>LinkedIn: <a href="#">https://www.linkedin.com/in/meagan-mann/</a></p>
+    </div>
+    
+    <footer>
+        &copy; 2025 Your Name
+    </footer>
+</body>
+</html>
